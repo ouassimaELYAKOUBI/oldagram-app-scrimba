@@ -134,6 +134,8 @@ span{
     /* For mobile screens */
     .container {
         width: 100%;
+        padding: 0;
+        margin: 0;
          /* Add more padding on mobile */
     }
 
