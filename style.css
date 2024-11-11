@@ -169,7 +169,7 @@ span{
         width: 16px; /* Further reduce icon size */
     }
 
-    .icon-section {
-        justify-content: center; /* Center the icons on smaller screens */
+    .userInfo {
+        padding: 0px;
     }
 }
