@@ -2,6 +2,8 @@ body {
     margin: 0 ;
     font-family: "Source Sans 3", serif;
     background-color: #EDEDED;
+    box-sizing: border-box;
+    
 }
 
 .container {
@@ -75,9 +77,9 @@ span{
     width: 20px;
     padding-right:10px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
 }
-
-
 
 .icon-section {
     margin: 8px 8px 0px 8px;
@@ -96,7 +98,10 @@ span{
     /* For tablets and smaller screens */
     .container {
         width: 100%; /* Use full width on smaller screens */
-        padding: 0 20px; /* Add padding to the sides */
+        padding: 0; /* Add padding to the sides */
+    }
+    header .container {
+        margin-top: 0;
     }
 
     .logo-img {
@@ -131,6 +136,7 @@ span{
 
 @media screen and (max-width: 480px) {
     /* For mobile screens */
+    
     .container {
         width: 100%;
         padding: 0;
@@ -165,11 +171,12 @@ span{
     }
 
     .icon-img {
-        width: 16px; /* Further reduce icon size */
+        width: 16px;
+        padding-right: 10px; /* Further reduce icon size */
     }
 
     header .container {
         margin-top: 0px;
-        padding: 5px 6px;
+        padding: 5px 0;
     }
 }
