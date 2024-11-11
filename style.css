@@ -90,3 +90,84 @@ span{
     margin: 5px 8px;
 
 }
+
+
+/* Responsive Styles using Media Queries */
+@media screen and (max-width: 768px) {
+    /* For tablets and smaller screens */
+    .container {
+        width: 100%; /* Use full width on smaller screens */
+        padding: 0 20px; /* Add padding to the sides */
+    }
+
+    .logo-img {
+        width: 100px; /* Adjust logo size for smaller screens */
+    }
+
+    .portrait-img {
+        width: 40px; /* Adjust profile picture size */
+    }
+
+    .user-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .post-img {
+        width: 100%; /* Ensure post image is responsive */
+    }
+
+    .userInfo-header h2 {
+        font-size: 14px; /* Make text slightly larger for better readability */
+    }
+
+    .userInfo-header p {
+        font-size: 12px; /* Adjust location text size */
+    }
+
+    .icon-img {
+        width: 18px; /* Reduce icon size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* For mobile screens */
+    .container {
+        width: 100%;
+         /* Add more padding on mobile */
+    }
+
+    .logo-img {
+        width: 80px; /* Further reduce the logo size */
+    }
+
+    .portrait-img {
+        width: 35px; /* Further reduce the profile picture size */
+    }
+
+    .user-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .post-img {
+        width: 100%; /* Full width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .userInfo-header h2 {
+        font-size: 16px; /* Increase heading size */
+    }
+
+    .userInfo-header p {
+        font-size: 14px; /* Make location text slightly larger */
+    }
+
+    .icon-img {
+        width: 16px; /* Further reduce icon size */
+    }
+
+    .icon-section {
+        justify-content: center; /* Center the icons on smaller screens */
+    }
+}
