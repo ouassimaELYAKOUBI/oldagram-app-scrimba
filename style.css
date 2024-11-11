@@ -169,7 +169,7 @@ span{
         width: 16px; /* Further reduce icon size */
     }
 
-    .userInfo {
-        padding: 0px;
+    header .container {
+        margin-top: 0px;
     }
 }
