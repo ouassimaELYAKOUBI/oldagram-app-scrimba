@@ -75,7 +75,6 @@ span{
     width: 20px;
     padding-right:10px;
     cursor: pointer;
-    transition: filter 0.3s ease;
 }
 
 
@@ -171,5 +170,6 @@ span{
 
     header .container {
         margin-top: 0px;
+        padding: 5px 6px;
     }
 }
