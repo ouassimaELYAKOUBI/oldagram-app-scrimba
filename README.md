@@ -40,6 +40,9 @@ Developed as a solo project for the Frontend Career Path on Scrimba.
 
 Contributions are welcome! Please feel free to fork this repository, make your changes, and submit a pull request.
 
+![Oldagram in Phone Mockup](https://github.com/user-attachments/assets/008b2bfe-1a8d-4146-b375-23e80d90df4d)
+![oldagram in Desktop](https://github.com/user-attachments/assets/7069ae59-cc26-4e51-8246-8334c1051bb7)
+
 
 
 
